@@ -6,7 +6,7 @@ function atLeastFive(array, operation) {
 }
 
 function scoreCheck(score) {
-  return score >= 70 ? true : false;
+  return score > 70 ? true : false;
 }
 
 const studentScoresRoom1 = [90, 40, 67, 80, 100, 15, 86, 12, 99, 67];
